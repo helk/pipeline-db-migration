@@ -4,7 +4,7 @@
         "host": {"ENV": "DEV_HOST"},
         "user": {"ENV": "DEV_USERNAME"},
         "password": {"ENV": "DEV_PASSWORD"},
-        "database": {"ENV": "DEV_DATEBASE"},
+        "database": {"ENV": "DEV_DATABASE"},
         "multipleStatements": true
     }
 }
