@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - npm install db-migrate --global
+      - npm install db-migrate-mysql --global
+  build:
+    commands:
+      - MYSQL_FLAGS="-CONNECT_WITH_DB" db-migrate db:create $DEV_DATEBASE
+      - db-migrate up
