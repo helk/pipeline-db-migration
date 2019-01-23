@@ -6,6 +6,7 @@
         "user": {"ENV": "DEV_USERNAME"},
         "password": {"ENV": "DEV_PASSWORD"},
         "database": {"ENV": "DEV_DATABASE"},
+        "flags": { "ENV": "MYSQL_FLAGS" },
         "multipleStatements": true
     }
 }
