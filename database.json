@@ -1,5 +1,6 @@
 {
-    "dev": {
+    "defaultEnv": {"ENV": "NODE_ENV"},
+    "sandbox": {
         "driver": "mysql",
         "host": {"ENV": "DEV_HOST"},
         "user": {"ENV": "DEV_USERNAME"},

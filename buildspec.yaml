@@ -7,5 +7,5 @@ phases:
       - npm install db-migrate-mysql --global
   build:
     commands:
-      - MYSQL_FLAGS="-CONNECT_WITH_DB" db-migrate db:create $DEV_DATABASE
+      - db-migrate db:create $DEV_DATABASE
       - db-migrate up
